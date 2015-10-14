@@ -3,14 +3,13 @@
 def beer(bottles)
 
 if bottles > 1
-  puts "#{bottles} bottles of beer on the wall, #{bottles} bottles of beer."
-  puts "Take one down and pass it around, #{bottles} bottles of beer on the wall."
-  puts ''
+  puts "#{bottles} bottles of beer on the wall, #{bottles} bottles of beer.\n"
+  puts "Take one down and pass it around, #{bottles - 1} bottles of beer on the wall.\n\n"
   beer(bottles - 1)
      end
 if bottles <= 1
-  puts "#{bottles} bottle of beer on the wall, #{bottles} bottle of beer."
-  puts "Take one down and pass it around, no more bottles of beer on the wall."
+  puts "#{bottles} bottle of beer on the wall, #{bottles} bottle of beer.\n"
+  puts "Take one down and pass it around, no more bottles of beer on the wall.\n"
   return
 end
 end
