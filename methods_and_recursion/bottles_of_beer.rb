@@ -4,12 +4,12 @@ def beer(bottles)
 
 if bottles > 2
   puts "#{bottles} bottles of beer on the wall, #{bottles} bottles of beer.\n"
-  puts "Take one down and pass it around, #{bottles - 1} bottles of beer on the wall.\n\n"
+  puts "Take one down and pass it around, #{bottles - 1} bottles of beer on the wall.\n"
   beer(bottles - 1)
 end
 if bottles == 2
   puts "#{bottles} bottles of beer on the wall, #{bottles} bottles of beer.\n"
-  puts "Take one down and pass it around, #{bottles - 1} bottles of beer on the wall.\n\n"
+  puts "Take one down and pass it around, #{bottles - 1} bottles of beer on the wall.\n"
   beer (bottles - 1)
 end
 if bottles <= 1
