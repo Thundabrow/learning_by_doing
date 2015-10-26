@@ -18,5 +18,5 @@ sit around #{get_word('verb ending in ing')}. Last summer, my little brother
 fell in a/an #{get_word('noun')} and got poison #{get_word('plant')} all
 over his #{get_word('body part')}. My family is going to go to (the)
 #{get_word('place')}, and I will practice #{get_word('verb ending in ing')}. Parents need vacations more than kids because parents are always very
- #{get_word('adjective')}, and because they have to work #{get_word('number')} hours every day all year making enough #{get_word('plural noun')} to pay for the vacation."
+#{get_word('adjective')} and because they have to work #{get_word('number')} hours every day all year making enough #{get_word('plural noun')} to pay for the vacation."
 # rubocop:enable Metrics/LineLength
