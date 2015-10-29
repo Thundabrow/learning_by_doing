@@ -11,7 +11,7 @@ puts "There are #{mins_in_hour} minutes in an hour"
 puts "There are #{hours_in_day} hours in a day"
 puts "There are #{days_in_week} days in a week"
 puts 'That means there are:'
-puts "#{secs_in_hour} seconds in an hour,"
+puts "  #{secs_in_hour} seconds in an hour,"
 puts "#{secs_in_day} seconds in a day,"
 puts "#{secs_in_week} seconds in a week"
 puts "That means when you turn 20, you've been alive for
